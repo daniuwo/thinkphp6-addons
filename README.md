@@ -2,7 +2,7 @@
 The ThinkPHP 6 Addons Package
 
 ## 安装
-> composer require daniuwo/think-addons
+> composer require daniuwo/thinkphp6-addons
 
 ## 配置
 
