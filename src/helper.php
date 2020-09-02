@@ -54,8 +54,7 @@ if (!function_exists('hook')) {
     function hook($event, $params = null, bool $once = false)
     {
         $result = Event::trigger($event, $params, $once);
-
-        return join('', $result);
+        return $result;
     }
 }
 
